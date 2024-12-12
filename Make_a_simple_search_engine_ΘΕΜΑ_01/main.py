@@ -26,13 +26,17 @@ def index_words(soup):
 
 
 def remove_stop_words(index):
-    stop_words = ['a', 'about', 'above', 'after', 'again', 'against', 'all',
-                  'am', 'an', 'and', 'any', 'are', "aren't", "or", "in", "on", "at"
-                  'as', 'at', 'be', 'because', 'been', 'before', 'being', 'below'
-                  'Ο', 'η', 'το', 'του', 'της', 'των', 'τον', 'την', 'τα', 'τις',
+    stop_words = ['a', 'about', 'above', 'after', 'again',
+                  'against', 'all', 'am', 'an', 'and',
+                  'any', 'are', "aren't", "or", "in",
+                  "on", "at", 'as', 'at', 'be', 'because',
+                  'been', 'before', 'being', 'below',
+                  'Ο', 'η', 'το', 'του', 'της', 'των', 'τον', 'την', 'τα', 
+                  'τις', 'τους', 'τι', 'ποιος', 'ποια', 'ποιο',
                   'τους', 'τι', 'ποιος', 'ποια', 'ποιο',
-                  'ποιοι', 'ποιες', 'ποιων', 'ποιους', 'ποιες', 'ποιαν', 'ποιον',
-                  'σε', 'στο', 'στη', 'στα', 'στις', 'στου']
+                  'ποιοι', 'ποιες', 'ποιων', 'ποιους', 'ποιες', 
+                  'ποιαν', 'ποιον', 'σε', 'στο', 'στη', 
+                  'στα', 'στις', 'στου']
     for stop_words in stop_words:
         if stop_words in index:
             del index[stop_words]
