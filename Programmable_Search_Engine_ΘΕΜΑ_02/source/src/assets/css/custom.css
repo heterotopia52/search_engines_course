@@ -12,3 +12,21 @@
  .a-font:hover {
   color: rgb(29, 1, 1);
 }
+
+.page-header {
+  background-color: rosybrown; ;
+}
+
+#man-header {
+  background-color: rgb(71, 83, 192);
+}
+
+#woman-header {
+  background-color: rgb(240, 110, 207);
+}
+
+
+.gsc-search-button-v2 svg {
+ 
+  margin-top: 1.1rem;
+}
