@@ -1,17 +1,18 @@
 {
-  "name": "thejobs",
-  "banner_name": "TheJobs",
+  "name": "searchClub",
+  "banner_name": "SearchClub",
   "description": "",
   "version": "1.0.0",
   "keywords": [
-    "job",
+    "search",
     "board",
     "listing",
-    "resume",
-    "candidate"
+    "man",
+    "woman",
+    "restaurant"
   ],
-  "homepage": "http://shamsoft.net/thejobs",
-  "author": "ShaMSofT",
+  "homepage": "https://github.com/heterotopia52/",
+  "author": "Beterotopia",
   "devDependencies": {
     "autoprefixer-core": "^6.0.1",
     "cssnano": "^3.0.1",
