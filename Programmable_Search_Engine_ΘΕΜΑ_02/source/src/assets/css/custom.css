@@ -1,0 +1,14 @@
+.demo-btn-margin .btn {
+  margin-bottom: 6px;
+}
+
+#search-font {
+  color: rgb(29, 1, 1);
+}
+
+.a-font {
+  color: whitesmoke;
+}
+ .a-font:hover {
+  color: rgb(29, 1, 1);
+}
